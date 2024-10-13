@@ -17,5 +17,6 @@ ck = {
 }
 res = requests.post(url,headers=ck,data=str)
 
-
+#test
+print(res.text)
 print(res.json())
