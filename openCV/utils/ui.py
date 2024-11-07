@@ -5,7 +5,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QHB
 from PyQt5.QtGui import QPixmap, QImage
 from PyQt5.QtCore import Qt
 import cv2
-from utils.dataLoad import read_images_from_folder, read_matching_text, save_image_and_boxes, \
+from dataLoad import read_images_from_folder, read_matching_text, save_image_and_boxes, \
     display_image_with_boxes
 
 

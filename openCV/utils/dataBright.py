@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import random
 
-from utils.dataLoad import save_image_and_boxes
+from dataLoad import save_image_and_boxes
 
 
 def random_brightness(image):

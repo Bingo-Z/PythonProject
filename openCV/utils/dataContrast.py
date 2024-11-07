@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-from utils.dataLoad import read_images_from_folder, save_image_and_boxes
+from dataLoad import read_images_from_folder, save_image_and_boxes
 
 
 def random_contrast(image, alpha_range=(0.5, 2.0)):
